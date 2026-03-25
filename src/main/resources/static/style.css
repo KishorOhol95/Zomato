@@ -1,0 +1,12 @@
+body { font-family: Arial, sans-serif; margin: 20px; background: #f8f8f8; }
+h1 { color: #ff5722; text-align: center; }
+.restaurant { background: #fff; padding: 15px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+.restaurant h2 { margin-top: 0; }
+.menu-item { display: flex; justify-content: space-between; margin: 10px 0; align-items: center; }
+.menu-item img { width: 80px; height: 60px; border-radius: 4px; margin-right: 10px; }
+button { background: #ff5722; color: white; border: none; padding: 5px 10px; border-radius: 4px; cursor: pointer; }
+button:hover { background: #e64a19; }
+#cart { background: #fff; padding: 15px; border-radius: 8px; margin-top: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+#restaurants { display: flex; flex-direction: column; gap: 20px; }
+.menu-item-container { display: flex; align-items: center; justify-content: space-between; }
+
